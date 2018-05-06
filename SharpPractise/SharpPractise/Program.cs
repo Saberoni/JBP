@@ -10,7 +10,18 @@ namespace SharpPractise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Matt");
+            Console.WriteLine("What is your Name?");
+
+            string yourName = Console.ReadLine();
+
+            if(yourName == "God")
+            {
+                Console.WriteLine("My Lord God! How may we serve?");
+            }
+            else
+            {
+                Console.WriteLine("What can I do for you {0}?", yourName);
+            }
             Console.ReadLine();
         }
     }
