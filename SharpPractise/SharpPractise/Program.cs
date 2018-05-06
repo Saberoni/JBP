@@ -13,15 +13,24 @@ namespace SharpPractise
             Console.WriteLine("What is your Name?");
 
             string yourName = Console.ReadLine();
-
+            // This is a comment.
             if(yourName == "God")
             {
                 Console.WriteLine("My Lord God! How may we serve?");
             }
             else
             {
+                /*
+                    comment block
+                */
                 Console.WriteLine("What can I do for you {0}?", yourName);
             }
+            
+
+            int x = 15;
+            int y = 6;
+            x %= y;
+            Console.WriteLine(x);
             Console.ReadLine();
         }
     }
